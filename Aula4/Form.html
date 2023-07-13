@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Formulário</title>
+</head>
+
+<body>
+ <form>
+
+  <div>
+   <!--Div é um elemento que pode receber diferentes conteúdos e é utilizado na construção de layouts de páginas web-->
+   <label for="name">Nome:
+    <!--llabel é uma legenda para um item em uma interface de usuário. O for é um atributo de entrada e deve ter o valor igual ao id-->
+    <input type="text" id="name" required />
+    <!--É usado para receber dados do usuário e tem vários types diferentes com diferentes funções-->
+   </label>
+  </div>
+
+  <div>
+   <label for="email">E-mail:
+    <input type="email" id="email" required /> <!--required avisa que precisa preencher o campo-->
+   </label>
+  </div>
+
+  <div>
+   <label>
+    <input type="radio" name="preco" value="150"> R$ 150,00 <!--input type radio mostra as opções para selecionar-->
+   </label>
+
+   <label>
+    <input type="radio" name="preco" value="200"> R$ 200,00
+   </label>
+
+   <label>
+    <input type="radio" name="preco" value="250"> R$ 250,00
+   </label>
+
+   <label>
+    <input type="radio" name="preco" value="300"> R$ 300,00
+   </label>
+  </div>
+
+  <div>
+   <input type="checkbox" name="variosprecos" value="150"> R$ 150,00
+   <!--Input checkbox você pode selecionar vários opções-->
+   <input type="checkbox" name="variosprecos" value="200"> R$ 200,00
+   <input type="checkbox" name="variosprecos" value="250"> R$ 250,00
+   <input type="checkbox" name="variosprecos" value="300"> R$ 300,00
+  </div>
+
+  <div>
+   <label>
+    Selecione o seu time: <br>
+    <select>
+     <option value="" selected>Selecione um time</option>
+     <!--Ele ficou com o valor vazio para que aparecesse a mensagem apenas-->
+     <option value="Corinthians">Corinthians</option>
+     <option value="São Paulo">São Paulo</option>
+     <option value="Palmeiras">Palmeiras</option>
+     <option value="Santos">Santos</option>
+     <option value="Nenhuma opção">Nenhuma opção</option>
+    </select>
+   </label>
+  </div>
+
+  <div>
+   <label>Digite seu comentário: <br> </label>
+   <textarea></textarea> <!--textarea pode digitar um texto grando-->
+  </div>
+
+  <button>Enviar informações</button> <!--Aqui foi criado um botão-->
+ </form>
+</body>
+
+</html>

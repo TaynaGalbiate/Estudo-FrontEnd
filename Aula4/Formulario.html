@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Meu primeiro Formulário</title>
+</head>
+
+<body>
+ <h2>Preencha o formulário a seguir e boa sorte!</h2>
+ <form>
+
+  <div>
+   <label for="nome"><br>Nome:
+    <input type="text" id="nome" required />
+   </label>
+  </div>
+
+  <div>
+   <label for="email"><br>E-mail:
+    <input type="email" id="email" required />
+   </label>
+  </div>
+
+  <div>
+   <label for="telefone"><br>Telefone:
+    <input type="text" id="telefone" required />
+   </label>
+  </div>
+
+  <div>
+   <label for="endereco"><br>Endereço:
+    <input type="text" id="endereco" required />
+   </label>
+  </div>
+
+  <div>
+   <label><br>Como conheceu nossa instituição:
+    <select>
+     <option value="" selected>Selecione</option>
+     <option value="LinkedIn">LinkedIn</option>
+     <option value="Instagram">Instagram</option>
+     <option value="Facebook">Facebook</option>
+     <option value="Anúncio no Google">Anúncio no Google</option>
+     <option value="Nenhuma opção">Nenhuma opção</option>
+    </select>
+   </label>
+  </div>
+
+  <div>
+   <label><br>Para qual vaga você gostaria de se candidatar:
+    <input type="checkbox" name="vaga" value="Engenharia de Software"> Engenharia de Software
+    <input type="checkbox" name="vaga" value="Analista de Sistemas"> Analista de Sistemas
+    <input type="checkbox" name="vaga" value="FrontEnd"> FrontEnd
+    <input type="checkbox" name="vaga" value="BackEnd"> BackEnd
+    <input type="checkbox" name="vaga" value="Gestão TI"> Gestão TI
+   </label>
+  </div>
+
+  <div>
+   <label><br>Possui quantos anos de experiência:
+    <input type="radio" name="experiencia" value="Não possuo experiência"> Não possuo experiência
+    <input type="radio" name="experiencia" value="Menos de 5 anos"> Menos de 5 anos
+    <input type="radio" name="experiencia" value="Mais de 5 anos"> Mais de 5 anos
+   </label>
+  </div>
+
+  <div>
+   <label><br> Escreva um pouco sobre você:<br> </label>
+   <textarea></textarea>
+  </div>
+
+  <button>Enviar informações</button>
+ </form>
+</body>
+
+</html>

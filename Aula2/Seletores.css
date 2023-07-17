@@ -1,0 +1,26 @@
+article {
+ width: 200px;
+ /*Largura*/
+
+ margin: 0 auto;
+ /*Centralizou na página*/
+}
+
+.container {
+ background-color: rgb(205, 0, 0);
+ /*Cor de fundo atrás do texto*/
+
+}
+
+#texto1 {
+ color: #fff;
+ /*Cor da letra*/
+}
+
+#texto2 {
+ color: #e77efa;
+ /*Cor da letra*/
+
+ padding: 10px;
+ /*Tamanho da caixa que tem o texto*/
+}

@@ -1,0 +1,18 @@
+div {
+ background: hotpink;
+ color: #fff;
+ font-size: 30px;
+
+ margin: 50px 50px 50px 50px;
+ padding: 50px;
+
+ border-top: 20px solid indigo;
+ border-right: 20px dotted blueviolet;
+ border-bottom: 20px solid rgb(197, 91, 250);
+ border-left: 20px dashed rgb(108, 21, 132);
+ /*Solid é a cor sólida
+ Dashed são bordas com tracinhos
+ Dothed são bolinhas
+ Obs. Existem vários tipos de bordas
+ */
+}

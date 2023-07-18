@@ -1,0 +1,19 @@
+div {
+ position: relative;
+ padding: 30px;
+ background: pink;
+ font-size: 22px;
+
+ transition: all 0.5s;
+}
+
+div:hover {
+ top: 4px;
+ text-shadow: 2px 2px 20px #000;
+ /*Sombra no texto.
+ A primeira e a segunda são as posições e a última é o desfoque*/
+
+ box-shadow: 0 10px 50px #000000a8;
+ /*Sombra no box*/
+
+}

@@ -1,0 +1,28 @@
+body {
+ background: red;
+ color: #fff;
+ font-size: 30px;
+}
+
+p {
+ display: none;
+}
+
+@media(max-width: 500px) {
+ /*Através do @media nós podemos tornar o desing responsivo e alterar as cores, tamanhos entre outras funções*/
+
+ body {
+  background: royalblue;
+ }
+}
+
+@media (max-width: 320px) {
+ body {
+  font-size: 50px;
+  background: purple;
+ }
+
+ p {
+  display: block;
+ }
+}

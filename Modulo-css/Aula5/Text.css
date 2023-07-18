@@ -1,0 +1,15 @@
+p {
+ text-align: center;
+ /*posicionamento*/
+
+ text-decoration: underline;
+ /*Coloca uma linha no local determinado*/
+
+ letter-spacing: 30px;
+ /*Espaçamento entre as letras*/
+
+}
+
+a {
+ text-decoration: none;
+}

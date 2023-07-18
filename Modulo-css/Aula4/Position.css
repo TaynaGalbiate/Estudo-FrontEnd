@@ -1,0 +1,46 @@
+.container {
+ background-color: blueviolet;
+ color: #fff;
+ margin: 40px 0;
+ position: relative;
+ height: 150px;
+
+ /*Position Static:
+ É uma forma normal e não pega nenhum atributo como posição, é uma forma padronizada. */
+}
+
+.filho-relative {
+ background: red;
+ position: relative;
+ /*Position Relative:
+ É usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele.
+ Nesse caso ela fica relativa a div container. */
+ top: 10px;
+ left: 20px;
+ bottom: 20px;
+ right: 50px;
+}
+
+.filho-absolute {
+ background: red;
+ position: absolute;
+ /*Position Absolute: 
+ indica que o elemento ficará em uma posição fixa em relação à página.
+ Tem que tomar cuidado com a hierarquia para que ele fique na posição correta.*/
+
+ top: 100px;
+ right: 10px;
+}
+
+.fixed {
+ font-size: 50px;
+ position: fixed;
+ /*Position Fixed:
+ Ele fica fixo na página.*/
+
+ color: #fff;
+ background: red;
+ top: 0;
+ z-index: 999;
+ /*Fica acima de tudo*/
+}

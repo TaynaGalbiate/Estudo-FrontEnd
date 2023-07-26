@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./assets/css/style.css">
+ <title>Exemplos com o uso do Flex-Box</title>
+ <style>
+  .flex {
+   display: flex;
+  }
+
+  /*
+  align-items: flex-start;             Os itens ficam no começo 
+  align-items: center;                 Os itens ficam centralizados 
+  align-items: stretch;                Os itens ficam em pé e alinhados também  
+  align-items:flex-end ;               Os itens ficam no final  
+
+
+  justify-content: flex-end;           Joga os itens para o lado direito 
+  justify-content: flex-start;         Não muda nada 
+  justify-content: center;             Deixa os itens centralizados  
+  justify-content: space-evenly;       Deixa espaçamentos  
+  justify-content: space-around;       Espaçamento de acordo com os quadrados 
+
+ 
+
+  .flex .item {
+   flex-grow: 1;                       Ele deixa os tamanhos iguais e ocupa todo espaço
+   flex-basis:100px                    Ele destina os tamanho e é super importante
+  }
+
+  .flex .item:nth-of-type(3) {
+   background-: purple;                Muda a cor 
+   flex-shrink: 10;                    Diminui o tamanho 
+   order: 1;                           Muda a ordem dos itens 
+   flex: 0 1 20%                       Ele muda o tamanho de acordo com o que está sendo solicitado
+   flex-grow: 10;                      Agora ele vai deixar o terceiro bloco 10 vezes maior o tamanho dele
+   align-self: flex-start;             Esse código faz os itens subirem, caso eu coloque end ele coloca os itens no final e center no centro
+   
+
+  
+
+  flex-direction: row-reverse;         Faz o reverso dos boxs e muda a direção 
+  flex-direction: column;              Deixa os boxs em colunas  
+  flex-wrap: nowrap;                   Não muda nada 
+  flex-wrap: wrap;                     Ele quebra em linhas  
+  }
+  
+  */
+ </style>
+</head>
+
+<body>
+
+ <main class="flex">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+
+
+ </main>
+
+</body>
+
+</html>
